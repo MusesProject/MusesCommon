@@ -1,7 +1,5 @@
 package eu.musesproject.client.model.decisiontable;
 
-
-
 /**
  * 
  * @author zardosht
@@ -11,8 +9,16 @@ public class Request {
 	
 	private Action action = null;
 	private Resource resource = null;
-	
-	public Action getAction() {
+
+    public Request() {
+    }
+
+    public Request(Action action, Resource resource) {
+        this.action = action;
+        this.resource = resource;
+    }
+
+    public Action getAction() {
 		return action;
 	}
 	public void setAction(Action action) {
@@ -24,7 +30,4 @@ public class Request {
 	public void setResource(Resource resource) {
 		this.resource = resource;
 	}
-	
-	
-
 }
