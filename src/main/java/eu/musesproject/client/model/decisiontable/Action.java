@@ -2,15 +2,10 @@ package eu.musesproject.client.model.decisiontable;
 
 public class Action {
 	
-	public static final String OPEN = "open";
-	public static final String INSTALL = "install";
-	public static final String RUN = "run";
-	public static final String ACCESS = "access";
-	public static final String DELETE = "delete";
-	public static final String SEND = "send";
 	
 	private int id;
 	private String description;
+	private ActionType type;
 	private long timestamp;
 	
 	public int getId() {
@@ -30,6 +25,12 @@ public class Action {
 	}
 	public void setTimestamp(long timestamp) {
 		this.timestamp = timestamp;
+	}
+	public ActionType getType() {
+		return type;
+	}
+	public void setType(ActionType type) {
+		this.type = type;
 	}
 	
 	
