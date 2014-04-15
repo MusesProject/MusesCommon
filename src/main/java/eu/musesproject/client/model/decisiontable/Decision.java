@@ -30,4 +30,7 @@ public class Decision {
 		this.name = decision;
 	}
 
+    public String getName() {
+        return name;
+    }
 }
