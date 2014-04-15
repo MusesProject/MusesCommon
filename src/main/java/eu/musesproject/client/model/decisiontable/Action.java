@@ -5,7 +5,10 @@ public class Action {
 	
 	private int id;
 	private String description;
-	private ActionType type;
+    /**
+     * Access fiel {@link eu.musesproject.client.model.decisiontable.ActionType}
+     */
+	private String actionType;
 	private long timestamp;
 	
 	public int getId() {
@@ -26,11 +29,11 @@ public class Action {
 	public void setTimestamp(long timestamp) {
 		this.timestamp = timestamp;
 	}
-	public ActionType getType() {
-		return type;
+	public String getActionType() {
+		return actionType;
 	}
-	public void setType(ActionType type) {
-		this.type = type;
+	public void setActionType(String actionType) {
+		this.actionType = actionType;
 	}
 	
 	
