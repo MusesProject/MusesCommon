@@ -8,7 +8,8 @@ public class ActionType {
 	public static final String ACCESS = "access";
 	public static final String DELETE = "delete";
 	public static final String SEND = "send";
-	
+	public static final String CANCEL = "cancel";
+	public static final String OK = "ok";
 
 
 }
