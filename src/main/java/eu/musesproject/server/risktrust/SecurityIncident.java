@@ -40,6 +40,8 @@ public class SecurityIncident {
 	
 	private int deviceid;
 	
+	private int assetid;
+	
 	private double probability;
 
 	/**
@@ -96,6 +98,20 @@ public class SecurityIncident {
 	 */
 	public void setProbability(double probability) {
 		this.probability = probability;
+	}
+
+	/**
+	 * @return the assetid
+	 */
+	public int getAssetid() {
+		return assetid;
+	}
+
+	/**
+	 * @param assetid the assetid to set
+	 */
+	public void setAssetid(int assetid) {
+		this.assetid = assetid;
 	}
 
 

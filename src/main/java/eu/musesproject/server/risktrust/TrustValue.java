@@ -34,19 +34,19 @@ package eu.musesproject.server.risktrust;
  */
 public class TrustValue {
 	
-	private int value;
+	private double value;
 
 	/**
 	 * @return the value
 	 */
-	public int getValue() {
+	public double getValue() {
 		return value;
 	}
 
 	/**
 	 * @param value the value to set
 	 */
-	public void setValue(int value) {
+	public void setValue(double value) {
 		this.value = value;
 	}
 
