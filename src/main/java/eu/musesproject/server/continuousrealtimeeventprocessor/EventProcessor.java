@@ -9,6 +9,7 @@ package eu.musesproject.server.continuousrealtimeeventprocessor;
 import java.util.List;
 
 import eu.musesproject.server.risktrust.AccessRequest;
+import eu.musesproject.server.risktrust.AdditionalProtection;
 import eu.musesproject.server.risktrust.Asset;
 import eu.musesproject.server.risktrust.DeviceTrustValue;
 import eu.musesproject.server.risktrust.Outcome;
@@ -78,6 +79,22 @@ public interface EventProcessor {
 	 * @return the current threats
 	 */
 	List<Threat> getCurrentThreats(AccessRequest accessRequest,
+			UserTrustValue userTrustValue, DeviceTrustValue deviceTrustValue);
+	
+	/**
+	 * Gets the current additional protections.
+	 * 
+	 * @param accessRequest
+	 *            the access request
+	 * @param userTrustValue
+	 *            the user trust value
+	 * @param deviceTrustValue
+	 *            the device trust value
+	 * @param requestedAsset
+	 *            the requested asset
+	 * @return the current additional protections
+	 */
+	List<AdditionalProtection> getCurrentAdditionalProtections(AccessRequest accessRequest,
 			UserTrustValue userTrustValue, DeviceTrustValue deviceTrustValue);
 	/**
 	 * Compute outcome probability.
