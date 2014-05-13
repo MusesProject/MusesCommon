@@ -37,6 +37,8 @@ public class Asset {
 	private int id;
 	private String title;
 	private double value;
+	private String confidential_level;
+	private String location;
 	/**
 	 * @return the title
 	 */
@@ -72,6 +74,30 @@ public class Asset {
 	 */
 	public void setId(int id) {
 		this.id = id;
+	}
+	/**
+	 * @return the confidential_level
+	 */
+	public String getConfidential_level() {
+		return confidential_level;
+	}
+	/**
+	 * @param confidential_level the confidential_level to set
+	 */
+	public void setConfidential_level(String confidential_level) {
+		this.confidential_level = confidential_level;
+	}
+	/**
+	 * @return the location
+	 */
+	public String getLocation() {
+		return location;
+	}
+	/**
+	 * @param location the location to set
+	 */
+	public void setLocation(String location) {
+		this.location = location;
 	}
 
 }

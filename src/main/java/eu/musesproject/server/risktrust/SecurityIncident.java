@@ -42,6 +42,8 @@ public class SecurityIncident {
 	
 	private int assetid;
 	
+	private int decisionid;
+	
 	private double probability;
 
 	/**
@@ -112,6 +114,20 @@ public class SecurityIncident {
 	 */
 	public void setAssetid(int assetid) {
 		this.assetid = assetid;
+	}
+
+	/**
+	 * @return the decisionid
+	 */
+	public int getDecisionid() {
+		return decisionid;
+	}
+
+	/**
+	 * @param decisionid the decisionid to set
+	 */
+	public void setDecisionid(int decisionid) {
+		this.decisionid = decisionid;
 	}
 
 
