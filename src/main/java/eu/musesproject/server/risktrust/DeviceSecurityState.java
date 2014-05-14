@@ -35,7 +35,7 @@ package eu.musesproject.server.risktrust;
 public class DeviceSecurityState {
 	
 		private int device_id;
-		private String deviceState;
+		private String deviceState;  
 		private boolean antivirus; 
 		private boolean passwordProtection;
 		private boolean autoLock; 

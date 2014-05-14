@@ -42,7 +42,7 @@ public class SecurityIncident {
 	
 	private int assetid;
 	
-	private int userid;
+	private int userid;  
 	
 	private int decisionid;
 	

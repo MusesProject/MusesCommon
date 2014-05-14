@@ -40,7 +40,7 @@ public class Asset {
 	private String confidential_level;
 	private String location;
 	
-	
+	  
 	/**
 	 * @return the title
 	 */
