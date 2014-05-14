@@ -39,6 +39,8 @@ public class Asset {
 	private double value;
 	private String confidential_level;
 	private String location;
+	
+	
 	/**
 	 * @return the title
 	 */

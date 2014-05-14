@@ -35,10 +35,10 @@ package eu.musesproject.server.risktrust;
 public class DeviceSecurityState {
 	
 		private int device_id;
-		private String deviceState;// Rooted,Jailbroken,Under-Attack
-		private boolean antivirus; //Antivirus,
+		private String deviceState;
+		private boolean antivirus; 
 		private boolean passwordProtection;
-		private boolean autoLock; //Antivirus,
+		private boolean autoLock; 
 		private boolean sslProtection;
 		private boolean encryption; 
 		private boolean trackingDevice;
