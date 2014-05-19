@@ -7,4 +7,5 @@ public class JSONIdentifiers {
 	public static final String ACTION_TIMESTAMP	        = "timestamp";
 	public static final String SENSOR_IDENTIFIER	    = "sensor";
 	public static final String PROPERTIES_IDENTIFIER    = "properties";
+	public static final String DEVICE_POLICY   			= "muses-device-policy";
 }
