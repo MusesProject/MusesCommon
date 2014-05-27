@@ -36,7 +36,7 @@ public class SecurityIncident {
 	
 	private double costBenefit;
 	
-	private String description;
+	private String description;    
 	
 	private int deviceid;
 	
