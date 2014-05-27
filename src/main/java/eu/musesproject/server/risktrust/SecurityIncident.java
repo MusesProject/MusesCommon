@@ -146,5 +146,10 @@ public class SecurityIncident {
 		this.decisionid = decisionid;
 	}
 
+	public SecurityIncident() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 
 }
