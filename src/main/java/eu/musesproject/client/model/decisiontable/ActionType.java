@@ -10,6 +10,6 @@ public class ActionType {
 	public static final String SEND = "send";
 	public static final String CANCEL = "cancel";
 	public static final String OK = "ok";
-
-
+	public static final String OPEN_APPLICATION = "open_application";
+	public static final String OPEN_ASSET = "open_asset";
 }
