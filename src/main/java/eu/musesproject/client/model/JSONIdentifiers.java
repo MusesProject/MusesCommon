@@ -22,5 +22,8 @@ public class JSONIdentifiers {
 	public static final String POLICY_PROPERTY_RESOURCETYPE		= "resourceType";
 	public static final String POLICY_PROPERTY_PATH		= "path";
 	public static final String POLICY_PROPERTY_ALLOW	= "allow";
-	
+	public static final String AUTH_RESULT				= "auth-result";
+	public static final String LOGIN_USERNAME			= "username";
+	public static final String LOGIN_PASSWORD			= "password";
+	public static final String LOGIN_DEVICE_ID			= "device_id";
 }
