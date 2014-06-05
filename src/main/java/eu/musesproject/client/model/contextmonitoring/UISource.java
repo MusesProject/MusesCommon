@@ -5,5 +5,6 @@ package eu.musesproject.client.model.contextmonitoring;
  */
 public enum UISource {
     MUSES_UI,
-    MUSES_AWARE_APP_UI;
+    MUSES_AWARE_APP_UI,
+    INTERNAL;
 }
