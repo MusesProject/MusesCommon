@@ -5,6 +5,8 @@
  */
 package eu.musesproject.server.risktrust;
 
+import java.util.List;
+
 /*
  * #%L
  * MUSES Common
@@ -44,6 +46,8 @@ public class DeviceSecurityState {
 		private boolean trackingDevice;
 		private boolean remotewipe;
 		private boolean vpn;
+		
+		private List<Clue> clues;
 		/**
 		 * @return the device_id
 		 */
@@ -164,6 +168,13 @@ public class DeviceSecurityState {
 		public void setVpn(boolean vpn) {
 			this.vpn = vpn;
 		}
+		public List<Clue> getClues() {
+			return clues;
+		}
+		public void setClues(List<Clue> clues) {
+			this.clues = clues;
+		}
+
 		
 
 
