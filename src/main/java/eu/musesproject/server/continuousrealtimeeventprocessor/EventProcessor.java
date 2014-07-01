@@ -10,7 +10,7 @@ import java.util.List;
 
 import eu.musesproject.server.risktrust.AccessRequest;
 import eu.musesproject.server.risktrust.AdditionalProtection;
-import eu.musesproject.server.risktrust.Asset;
+import eu.musesproject.server.risktrust.Clue;
 import eu.musesproject.server.risktrust.DeviceTrustValue;
 import eu.musesproject.server.risktrust.Outcome;
 import eu.musesproject.server.risktrust.Probability;
@@ -79,6 +79,23 @@ public interface EventProcessor {
 	 * @return the current threats
 	 */
 	List<Threat> getCurrentThreats(AccessRequest accessRequest,
+			UserTrustValue userTrustValue, DeviceTrustValue deviceTrustValue);
+	
+	
+	/**
+	 * Gets the current Clues.
+	 * 
+	 * @param accessRequest
+	 *            the access request
+	 * @param userTrustValue
+	 *            the user trust value
+	 * @param deviceTrustValue
+	 *            the device trust value
+	 * @param requestedAsset
+	 *            the requested asset
+	 * @return the current threats
+	 */
+	List<Clue> getCurrentClues(AccessRequest accessRequest,
 			UserTrustValue userTrustValue, DeviceTrustValue deviceTrustValue);
 	
 	/**
