@@ -13,4 +13,6 @@ public class ActionType {
 	public static final String OPEN_APPLICATION = "open_application";
 	public static final String OPEN_ASSET = "open_asset";
 	public static final String VIRUS_FOUND = "virus_found";
+	public static final String SEND_MAIL = "send_mail";
+	public static final String FILE_ATTACHED = "file_attached";
 }
