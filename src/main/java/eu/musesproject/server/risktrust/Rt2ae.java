@@ -39,11 +39,13 @@ public interface Rt2ae {
 	 * 
 	 * @param accessRequest
 	 *            the access request
+	 * @param policyCompliance
+	 *            the policy compliance associated to the access request           
 	 * @param context
 	 *            the context
 	 * @return the decision
 	 */
-	public Decision decideBasedOnRiskPolicy(AccessRequest accessRequest,
+	public Decision decideBasedOnRiskPolicy(AccessRequest accessRequest, PolicyCompliance policyCompliance,
 			Context context);
 
 	/**

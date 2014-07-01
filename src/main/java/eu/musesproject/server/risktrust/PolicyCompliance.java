@@ -34,11 +34,16 @@ package eu.musesproject.server.risktrust;
  */
 public class PolicyCompliance {
 	
+	public final static String MAYBE = "MAYBE";
+	public final static String ALLOW = "ALLOW";
+	public final static String DENY = "DENY";
+	
 	private int id;
 	private String result;
 	private boolean compliance;
 	private int requestId;
     private String reason;
+    private String condition;
     
 	public int getId() {
 		return id;
@@ -69,5 +74,11 @@ public class PolicyCompliance {
 	}
 	public void setReason(String reason) {
 		this.reason = reason;
+	}
+	public String getCondition() {
+		return condition;
+	}
+	public void setCondition(String condition) {
+		this.condition = condition;
 	}
 }
