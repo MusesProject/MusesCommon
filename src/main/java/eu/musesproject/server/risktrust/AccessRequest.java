@@ -40,6 +40,7 @@ public class AccessRequest {
 	private User user;
 	private Asset requestedCorporateAsset;
 	private String action;
+	private long eventId;
 	
 	
 	/**
@@ -95,6 +96,12 @@ public class AccessRequest {
 	}
 	public void setId(int id) {
 		this.id = id;
+	}
+	public long getEventId() {
+		return eventId;
+	}
+	public void setEventId(long eventId) {
+		this.eventId = eventId;
 	}
 		
 	

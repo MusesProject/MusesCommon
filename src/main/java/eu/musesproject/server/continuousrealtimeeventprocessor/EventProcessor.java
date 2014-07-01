@@ -66,7 +66,7 @@ public interface EventProcessor {
 	void logUserSeemsInvolvedInSecurityIncident();
 
 	/**
-	 * Gets the current threats.
+	 * Gets the current clues associated to the access request.
 	 * 
 	 * @param accessRequest
 	 *            the access request
@@ -76,27 +76,11 @@ public interface EventProcessor {
 	 *            the device trust value
 	 * @param requestedAsset
 	 *            the requested asset
-	 * @return the current threats
-	 */
-	List<Threat> getCurrentThreats(AccessRequest accessRequest,
-			UserTrustValue userTrustValue, DeviceTrustValue deviceTrustValue);
-	
-	
-	/**
-	 * Gets the current Clues.
-	 * 
-	 * @param accessRequest
-	 *            the access request
-	 * @param userTrustValue
-	 *            the user trust value
-	 * @param deviceTrustValue
-	 *            the device trust value
-	 * @param requestedAsset
-	 *            the requested asset
-	 * @return the current threats
+	 * @return the current clues
 	 */
 	List<Clue> getCurrentClues(AccessRequest accessRequest,
 			UserTrustValue userTrustValue, DeviceTrustValue deviceTrustValue);
+	
 	
 	/**
 	 * Gets the current additional protections.
