@@ -15,4 +15,5 @@ public class ActionType {
 	public static final String VIRUS_FOUND = "virus_found";
 	public static final String SEND_MAIL = "send_mail";
 	public static final String FILE_ATTACHED = "file_attached";
+	public static final String UPDATE = "update";
 }
