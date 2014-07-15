@@ -36,12 +36,7 @@ import java.util.List;
  */
 public class DeviceSecurityState {
 	
-
-		
 		private List<Clue> clues;
-		/**
-		 * @return the device_id
-		 */
 	
 		public List<Clue> getClues() {
 			return clues;
