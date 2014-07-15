@@ -36,7 +36,21 @@ import java.util.List;
  */
 public class DeviceSecurityState {
 	
+		private int device_id;
+		
 		private List<Clue> clues;
+		/**
+		 * @return the device_id
+		 */
+		public int getDevice_id() {
+			return device_id;
+		}
+		/**
+		 * @param device_id the device_id to set
+		 */
+		public void setDevice_id(int device_id) {
+			this.device_id = device_id;
+		}
 	
 		public List<Clue> getClues() {
 			return clues;
