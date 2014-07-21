@@ -42,7 +42,7 @@ public class SecurityIncident {
 	
 	private int assetid;
 	
-	private int userid;  
+	private User user;  
 	
 	private int decisionid;
 	
@@ -119,17 +119,17 @@ public class SecurityIncident {
 	}
 
 	/**
-	 * @return the userid
+	 * @return the user
 	 */
-	public int getUserid() {
-		return userid;
+	public User getUser() {
+		return user;
 	}
 
 	/**
-	 * @param userid the userid to set
+	 * @param user the user to set
 	 */
-	public void setUserid(int userid) {
-		this.userid = userid;
+	public void setUser(User userid) {
+		this.user = user;
 	}
 
 	/**
