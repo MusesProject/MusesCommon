@@ -128,7 +128,7 @@ public class SecurityIncident {
 	/**
 	 * @param user the user to set
 	 */
-	public void setUser(User userid) {
+	public void setUser(User user) {
 		this.user = user;
 	}
 
