@@ -16,4 +16,5 @@ public class ActionType {
 	public static final String SEND_MAIL = "ACTION_SEND_MAIL";
 	public static final String FILE_ATTACHED = "file_attached";
 	public static final String UPDATE = "update";
+	public static final String SECURITY_PROPERTY_CHANGED = "security_property_changed";
 }
