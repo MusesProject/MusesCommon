@@ -12,6 +12,8 @@ public class Decision {
 	
 	public static final String UPTOYOU_ACCESS_WITH_RISKCOMMUNICATION = "UP_TO_YOU";
 	
+	public static final String DEFAULT_DENY_ACCESS = "DEFAULT_DENY";
+	
 	private String name = null;
 
 	private RiskCommunication riskCommunication = new RiskCommunication();
