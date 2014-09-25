@@ -46,6 +46,9 @@ abstract public class Decision {
 	private RiskCommunication riskCommunication = new RiskCommunication();
 	
 	private String condition = null;
+	
+	private String information = null;
+
 
 
 	public RiskCommunication getRiskCommunication() {
@@ -65,5 +68,21 @@ abstract public class Decision {
 
 	public void setCondition(String condition) {
 		this.condition = condition;
+	}
+
+
+	/**
+	 * @return the information
+	 */
+	public String getInformation() {
+		return information;
+	}
+
+
+	/**
+	 * @param information the information to set
+	 */
+	public void setInformation(String information) {
+		this.information = information;
 	}
 }
