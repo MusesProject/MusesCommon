@@ -19,4 +19,5 @@ public class ActionType {
 	public static final String FILE_ATTACHED = "file_attached";
 	public static final String SECURITY_PROPERTY_CHANGED = "security_property_changed";
 	public static final String UPDATE = "update";
+	public static final String ENCRYPT_EVENT = "encrypt_event";
 }
