@@ -32,4 +32,5 @@ public class JSONIdentifiers {
 	public static final String AUTH_PASSWORD			= "password";
 	public static final String AUTH_DEVICE_ID			= "device_id";
 	public static final String USER_BEHAVIOR			= "behavior";
+	public static final String REQUEST_ID			= "id";
 }
