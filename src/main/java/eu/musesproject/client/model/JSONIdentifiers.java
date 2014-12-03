@@ -1,6 +1,7 @@
 package eu.musesproject.client.model;
 
 public class JSONIdentifiers {
+	public static final String REQUEST_IDENTIFIER 		= "id";
 	public static final String REQUEST_TYPE_IDENTIFIER 	= "requesttype";
 	public static final String ACTION_IDENTIFIER 	    = "action";
 	public static final String ACTION_TYPE 		        = "type";
