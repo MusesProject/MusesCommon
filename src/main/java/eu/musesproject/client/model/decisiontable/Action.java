@@ -1,10 +1,10 @@
 package eu.musesproject.client.model.decisiontable;
 
 public class Action {
-	
-	
 	private int id;
 	private String description;
+	
+	
     /**
      * Access fiel {@link eu.musesproject.client.model.decisiontable.ActionType}
      */
@@ -35,7 +35,4 @@ public class Action {
 	public void setActionType(String actionType) {
 		this.actionType = actionType;
 	}
-	
-	
-
 }
