@@ -34,5 +34,13 @@ public class JSONIdentifiers {
 	public static final String AUTH_DEVICE_ID			= "device_id";
 	public static final String USER_BEHAVIOR			= "behavior";
 	public static final String LOGOUT_RESPONSE			= "logout-response";
+	public static final String MUSES_CONFIG				= "muses-config";
+	public static final String SILENT_MODE				= "silent-mode";
+	public static final String CONFIG_NAME				= "config-name";
+	public static final String SENSOR_TYPE				= "sensor-type";
+	public static final String KEY						= "key";
+	public static final String VALUE					= "value";
+	public static final String SENSOR_CONFIGURATION		= "sensor-configuration";
+	public static final String SENSOR_PROPERTY			= "sensor-property";
 	
 }
