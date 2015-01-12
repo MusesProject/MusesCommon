@@ -42,5 +42,11 @@ public class JSONIdentifiers {
 	public static final String VALUE					= "value";
 	public static final String SENSOR_CONFIGURATION		= "sensor-configuration";
 	public static final String SENSOR_PROPERTY			= "sensor-property";
+	public static final String CONNECTION_CONFIG		= "connection-config";
+	public static final String TIMEOUT					= "timeout";
+	public static final String POLL_TIMEOUT				= "poll_timeout";
+	public static final String SLEEP_POLL_TIMEOUT		= "sleep_poll_timeout";
+	public static final String POLLING_ENABLED			= "polling_enabled";
+	public static final String LOGIN_ATTEMPTS			= "login_attempts";
 	
 }
