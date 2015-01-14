@@ -21,4 +21,5 @@ public class ActionType {
 	public static final String UPDATE = "update";
 	public static final String ENCRYPT_EVENT = "encrypt_event";
 	public static final String VIRUS_CLEANED = "virus_cleaned";
+	public static final String MUSES_BACKGROUND_SERVICE = "muses_background_service";
 }
