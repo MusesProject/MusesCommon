@@ -48,6 +48,8 @@ abstract public class Decision {
 	private String condition = null;
 	
 	private String information = null;
+	
+	private int solving_risktreatment = 0;
 
 
 
@@ -84,5 +86,21 @@ abstract public class Decision {
 	 */
 	public void setInformation(String information) {
 		this.information = information;
+	}
+
+
+	/**
+	 * @return the solving_risktreatment
+	 */
+	public int getSolving_risktreatment() {
+		return solving_risktreatment;
+	}
+
+
+	/**
+	 * @param solving_risktreatment the solving_risktreatment to set
+	 */
+	public void setSolving_risktreatment(int solving_risktreatment) {
+		this.solving_risktreatment = solving_risktreatment;
 	}
 }
