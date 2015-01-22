@@ -3,14 +3,19 @@ package eu.musesproject.client.model.decisiontable;
 public class Action {
 	private int id;
 	private String description;
-	
-	
-    /**
+
+	/**
      * Access fiel {@link eu.musesproject.client.model.decisiontable.ActionType}
      */
+	private boolean requestedByMusesAwareApp;
 	private String actionType;
 	private long timestamp;
-	
+
+	public Action() {
+		//default
+		requestedByMusesAwareApp = false;
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -34,5 +39,11 @@ public class Action {
 	}
 	public void setActionType(String actionType) {
 		this.actionType = actionType;
+	}
+	public boolean isRequestedByMusesAwareApp() {
+		return requestedByMusesAwareApp;
+	}
+	public void setRequestedByMusesAwareApp(boolean requestedByMusesAwareApp) {
+		this.requestedByMusesAwareApp = requestedByMusesAwareApp;
 	}
 }
