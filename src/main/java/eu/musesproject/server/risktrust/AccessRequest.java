@@ -5,6 +5,8 @@
  */
 package eu.musesproject.server.risktrust;
 
+import java.math.BigInteger;
+
 /*
  * #%L
  * MUSES Common
@@ -38,6 +40,7 @@ public class AccessRequest {
 	private int id;
 	private Device device;
 	private User user;
+	private BigInteger userId;
 	private Asset requestedCorporateAsset;
 	private String action;
 	private long eventId;
@@ -102,6 +105,18 @@ public class AccessRequest {
 	}
 	public void setEventId(long eventId) {
 		this.eventId = eventId;
+	}
+	/**
+	 * @return the userId
+	 */
+	public BigInteger getUserId() {
+		return userId;
+	}
+	/**
+	 * @param userId the userId to set
+	 */
+	public void setUserId(BigInteger userId) {
+		this.userId = userId;
 	}
 		
 	
