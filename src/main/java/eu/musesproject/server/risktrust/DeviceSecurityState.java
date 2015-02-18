@@ -5,6 +5,7 @@
  */
 package eu.musesproject.server.risktrust;
 
+import java.math.BigInteger;
 import java.util.List;
 
 /*
@@ -36,19 +37,19 @@ import java.util.List;
  */
 public class DeviceSecurityState {
 	
-		private int device_id;
+		private BigInteger device_id;
 		
 		private List<Clue> clues;
 		/**
 		 * @return the device_id
 		 */
-		public int getDevice_id() {
+		public BigInteger getDevice_id() {
 			return device_id;
 		}
 		/**
 		 * @param device_id the device_id to set
 		 */
-		public void setDevice_id(int device_id) {
+		public void setDevice_id(BigInteger device_id) {
 			this.device_id = device_id;
 		}
 	
