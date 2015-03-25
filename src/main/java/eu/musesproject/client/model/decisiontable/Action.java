@@ -16,6 +16,13 @@ public class Action {
 		requestedByMusesAwareApp = false;
 	}
 
+    public Action(String actionType, long timestamp) {
+		//default
+		requestedByMusesAwareApp = false;
+        setActionType(actionType);
+        setTimestamp(timestamp);
+	}
+
 	public int getId() {
 		return id;
 	}
