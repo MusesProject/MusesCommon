@@ -1,7 +1,7 @@
 package eu.musesproject.client.model.decisiontable;
 
 public class Action {
-	private int id;
+private int id;
 	private String description;
 
 	/**
@@ -14,6 +14,13 @@ public class Action {
 	public Action() {
 		//default
 		requestedByMusesAwareApp = false;
+	}
+
+    public Action(String actionType, long timestamp) {
+		//default
+		requestedByMusesAwareApp = false;
+        setActionType(actionType);
+        setTimestamp(timestamp);
 	}
 
 	public int getId() {
