@@ -48,5 +48,12 @@ public class JSONIdentifiers {
 	public static final String SLEEP_POLL_TIMEOUT		= "sleep_poll_timeout";
 	public static final String POLLING_ENABLED			= "polling_enabled";
 	public static final String LOGIN_ATTEMPTS			= "login_attempts";
+	public static final String ZONE_CONFIG				= "zone-config";
+	public static final String ZONE						= "zone";
+	public static final String ZONE_ID					= "zoneId";
+	public static final String LONGITUD					= "longitud";
+	public static final String LATITUDE					= "latitude";
+	public static final String RADIUS					= "radius";
+	public static final String DESCRIPTION				= "description";
 	
 }
