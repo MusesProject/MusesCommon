@@ -5,6 +5,7 @@
  */
 package eu.musesproject.server.risktrust;
 
+
 /*
  * #%L
  * MUSES Common
@@ -35,6 +36,26 @@ package eu.musesproject.server.risktrust;
 public class Device {
 	
 	private DeviceTrustValue devicetrustvalue;
+	
+	private String deviceId;
+
+	private byte[] certificate;
+
+	private String description;
+
+	private String imei;
+
+	private String mac;
+
+	private String name;
+
+	private String OS_name;
+
+	private String OS_version;
+
+	private String ownerType;
+	
+	private double trustValue;
 
 	/**
 	 * @return the devicetrustvalue
@@ -48,6 +69,146 @@ public class Device {
 	 */
 	public void setDevicetrustvalue(DeviceTrustValue devicetrustvalue) {
 		this.devicetrustvalue = devicetrustvalue;
+	}
+
+	/**
+	 * @return the deviceId
+	 */
+	public String getDeviceId() {
+		return deviceId;
+	}
+
+	/**
+	 * @param deviceId the deviceId to set
+	 */
+	public void setDeviceId(String deviceId) {
+		this.deviceId = deviceId;
+	}
+
+	/**
+	 * @return the certificate
+	 */
+	public byte[] getCertificate() {
+		return certificate;
+	}
+
+	/**
+	 * @param certificate the certificate to set
+	 */
+	public void setCertificate(byte[] certificate) {
+		this.certificate = certificate;
+	}
+
+	/**
+	 * @return the description
+	 */
+	public String getDescription() {
+		return description;
+	}
+
+	/**
+	 * @param description the description to set
+	 */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	/**
+	 * @return the imei
+	 */
+	public String getImei() {
+		return imei;
+	}
+
+	/**
+	 * @param imei the imei to set
+	 */
+	public void setImei(String imei) {
+		this.imei = imei;
+	}
+
+	/**
+	 * @return the mac
+	 */
+	public String getMac() {
+		return mac;
+	}
+
+	/**
+	 * @param mac the mac to set
+	 */
+	public void setMac(String mac) {
+		this.mac = mac;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @return the oS_name
+	 */
+	public String getOS_name() {
+		return OS_name;
+	}
+
+	/**
+	 * @param oS_name the oS_name to set
+	 */
+	public void setOS_name(String oS_name) {
+		OS_name = oS_name;
+	}
+
+	/**
+	 * @return the oS_version
+	 */
+	public String getOS_version() {
+		return OS_version;
+	}
+
+	/**
+	 * @param oS_version the oS_version to set
+	 */
+	public void setOS_version(String oS_version) {
+		OS_version = oS_version;
+	}
+
+	/**
+	 * @return the ownerType
+	 */
+	public String getOwnerType() {
+		return ownerType;
+	}
+
+	/**
+	 * @param ownerType the ownerType to set
+	 */
+	public void setOwnerType(String ownerType) {
+		this.ownerType = ownerType;
+	}
+
+	/**
+	 * @return the trustValue
+	 */
+	public double getTrustValue() {
+		return trustValue;
+	}
+
+	/**
+	 * @param trustValue the trustValue to set
+	 */
+	public void setTrustValue(double trustValue) {
+		this.trustValue = trustValue;
 	}
 
 }
