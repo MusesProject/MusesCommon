@@ -33,7 +33,7 @@ public class JSONIdentifiers {
 	public static final String AUTH_PASSWORD			= "password";
 	public static final String AUTH_DEVICE_ID			= "device_id";
 	public static final String USER_BEHAVIOR			= "behavior";
-	public static final String OPERATING_SYSTEM			= "operating-system-version";
+	public static final String OPERATING_SYSTEM_VERSION		= "operating-system-version";
 	public static final String LOGOUT_RESPONSE			= "logout-response";
 	public static final String MUSES_CONFIG				= "muses-config";
 	public static final String SILENT_MODE				= "silent-mode";
