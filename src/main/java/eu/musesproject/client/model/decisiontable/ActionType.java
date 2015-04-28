@@ -15,6 +15,8 @@ public class ActionType {
 	public static final String OPEN_ASSET = "open_asset";
 	public static final String SAVE_ASSET = "save_asset";
 	public static final String MODIFY_ASSET = "modify_asset";
+	public static final String CREATE_ASSET = "create_asset";
+	public static final String DELETE_ASSET = "delete_asset";
 	public static final String VIRUS_FOUND = "virus_found";
 	public static final String SEND_MAIL = "ACTION_SEND_MAIL";
 	public static final String FILE_ATTACHED = "file_attached";
