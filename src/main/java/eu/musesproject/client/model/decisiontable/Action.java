@@ -8,14 +8,14 @@ public class Action {
      * Access fiel {@link eu.musesproject.client.model.decisiontable.ActionType}
      */
 	private boolean requestedByMusesAwareApp;
-	private boolean MusesAwareAppRequireReponse;
+	private boolean musesAwareAppRequiresResponse;
 	private String actionType;
 	private long timestamp;
 
 	public Action() {
 		//default
 		requestedByMusesAwareApp = false;
-		MusesAwareAppRequireReponse = false;
+		musesAwareAppRequiresResponse = false;
 	}
 
     public Action(String actionType, long timestamp) {
@@ -25,12 +25,12 @@ public class Action {
         setTimestamp(timestamp);
 	}
 
-	public boolean isMusesAwareAppRequireReponse() {
-		return MusesAwareAppRequireReponse;
+	public boolean isMusesAwareAppRequiresResponse() {
+		return musesAwareAppRequiresResponse;
 	}
 
-	public void setMusesAwareAppRequireReponse(boolean musesAwareAppRequireReponse) {
-		MusesAwareAppRequireReponse = musesAwareAppRequireReponse;
+	public void setMusesAwareAppRequiresResponse(boolean musesAwareAppRequiresResponse) {
+		this.musesAwareAppRequiresResponse = musesAwareAppRequiresResponse;
 	}
 
 	public int getId() {
