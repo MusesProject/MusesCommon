@@ -22,6 +22,7 @@ public class ActionType {
 	public static final String FILE_ATTACHED = "file_attached";
 	public static final String SECURITY_PROPERTY_CHANGED = "security_property_changed";
 	public static final String UPDATE = "update";
+	public static final String USB_DEVICE_CONNECTED = "usb_device_connected";
 	public static final String ENCRYPT_EVENT = "encrypt_event";
 	public static final String VIRUS_CLEANED = "virus_cleaned";
 	public static final String MUSES_BACKGROUND_SERVICE = "muses_background_service";
