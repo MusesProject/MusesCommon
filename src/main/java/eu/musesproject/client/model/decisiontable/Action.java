@@ -8,12 +8,14 @@ public class Action {
      * Access fiel {@link eu.musesproject.client.model.decisiontable.ActionType}
      */
 	private boolean requestedByMusesAwareApp;
+	private boolean MusesAwareAppRequiresAnswer;
 	private String actionType;
 	private long timestamp;
 
 	public Action() {
 		//default
 		requestedByMusesAwareApp = false;
+		MusesAwareAppRequiresAnswer = false;
 	}
 
     public Action(String actionType, long timestamp) {
