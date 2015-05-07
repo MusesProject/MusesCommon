@@ -39,6 +39,7 @@ public class Asset {
 	private double value;
 	private String confidential_level;
 	private String location;
+	private String description;
 	
 	  
 	/**
@@ -100,6 +101,12 @@ public class Asset {
 	 */
 	public void setLocation(String location) {
 		this.location = location;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 }
