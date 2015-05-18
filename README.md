@@ -1,7 +1,7 @@
 MusesCommon
 ===========
 
-This is the model for MusesServer; it's got to be compiled in advance.
+This is the model for MusesServer; it's got to be compiled in advance. It's a [Plain Old Java Object](http://es.wikipedia.org/wiki/Plain_Old_Java_Object) thar represents configuration and classes needed for the rest of the project.
 
 ## Compile
 
