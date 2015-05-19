@@ -26,6 +26,7 @@ public class JSONIdentifiers {
 	public static final String ACTION_IDENTIFIER 	    = "action";
 	public static final String ACTION_TYPE 		        = "type";
 	public static final String ACTION_TIMESTAMP	        = "timestamp";
+	public static final String DECISION_IDENTIFIER	    = "decision_id";
 	public static final String SENSOR_IDENTIFIER	    = "sensor";
 	public static final String PROPERTIES_IDENTIFIER    = "properties";
 	public static final String DEVICE_POLICY   			= "muses-device-policy";
