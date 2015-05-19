@@ -11,6 +11,8 @@ public class ActionType {
 	public static final String SEND = "send";
 	public static final String CANCEL = "cancel";
 	public static final String OK = "ok";
+	public static final String AUTOMATIC_FIX = "automatic_fix";
+	public static final String MANUAL_FIX = "manual_fix";
 	public static final String OPEN_APPLICATION = "open_application";
 	public static final String OPEN_ASSET = "open_asset";
 	public static final String SAVE_ASSET = "save_asset";
