@@ -50,6 +50,9 @@ abstract public class Decision {
 	private String information = null;
 	
 	private int solving_risktreatment = 0;
+	
+	private String id;
+
 
 
 
@@ -102,5 +105,21 @@ abstract public class Decision {
 	 */
 	public void setSolving_risktreatment(int solving_risktreatment) {
 		this.solving_risktreatment = solving_risktreatment;
+	}
+
+
+	/**
+	 * @return the id
+	 */
+	public String getId() {
+		return id;
+	}
+
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(String id) {
+		this.id = id;
 	}
 }
