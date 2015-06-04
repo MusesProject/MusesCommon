@@ -2,7 +2,7 @@ package eu.musesproject.client.model.decisiontable;
 
 /**
  * 
- * @author zardosht
+ * @author christophstanik
  *
  */
 public class Request {
