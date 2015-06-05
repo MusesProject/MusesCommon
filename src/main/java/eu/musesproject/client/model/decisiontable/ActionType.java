@@ -48,4 +48,5 @@ public class ActionType {
 	public static final String VIRUS_CLEANED = "virus_cleaned";
 	public static final String MUSES_BACKGROUND_SERVICE = "muses_background_service";
 	public static final String USER_ENTERED_PASSWORD_FIELD = "user_entered_password_field";
+	public static final String ADD_NOTE = "add_note";
 }
