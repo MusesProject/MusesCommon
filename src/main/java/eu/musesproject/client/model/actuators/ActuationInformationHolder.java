@@ -36,6 +36,15 @@ public class ActuationInformationHolder {
     private Action action;
     private Map<String, String> actionProperties;
 
+    public ActuationInformationHolder() {
+    }
+
+    public ActuationInformationHolder(Decision decision, Action action, Map<String, String> actionProperties) {
+        this.decision = decision;
+        this.action = action;
+        this.actionProperties = actionProperties;
+    }
+
     public Decision getDecision() {
         return decision;
     }
