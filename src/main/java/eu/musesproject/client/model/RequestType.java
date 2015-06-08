@@ -31,6 +31,7 @@ public class RequestType {
     public static final String LOGIN	        		= "login"; // authentication response to the server
     public static final String LOGOUT	        		= "logout";
     public static final String AUTH_RESPONSE	        = "auth-response"; // authentication response from the server
+    public static final String LOGOUT_RESPONSE	        = "logout-response";
     public static final String USER_ACTION				= "user_behavior";
     public static final String CONFIG_SYNC				= "config_sync";
     public static final String CONFIG_UPDATE			= "config_update";
