@@ -12,6 +12,7 @@ public class SolvingRiskTreatment {
     public static final int UNSECURE_WIFI_ENCRYPTION_WITHOUT_WPA2  = 5; // The user is connected to unsecure network, he has to switch to secure network with wpa2 encryption
     public static final int INSUFFICIENT_SCREEN_LOOK_TIMEOUT          = 6; // The user has not set a screen look timeout  
     public static final int BLUETOOTH_ENABLED_MIGHT_TURN_INTO_LEAKAGE_PROBLEMS          = 7; // The user enabled the bluetooth  
+    public static final int ACCESSIBILITY          = 8; // Accessibilty disbaled  
 
     
     
