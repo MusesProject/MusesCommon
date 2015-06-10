@@ -15,6 +15,10 @@ public class Decision {
 	public static final String DEFAULT_DENY_ACCESS = "DEFAULT_DENY";
 	
 	private String name = null;
+	
+	private String decision_id = null;
+	
+	private int solving_risktreatment = 0;
 
 	private RiskCommunication riskCommunication = new RiskCommunication();
 
@@ -35,4 +39,24 @@ public class Decision {
     public String getName() {
         return name;
     }
+
+
+	public String getDecision_id() {
+		return decision_id;
+	}
+
+
+	public void setDecision_id(String decision_id) {
+		this.decision_id = decision_id;
+	}
+
+
+	public int getSolving_risktreatment() {
+		return solving_risktreatment;
+	}
+
+
+	public void setSolving_risktreatment(int solving_risktreatment) {
+		this.solving_risktreatment = solving_risktreatment;
+	}
 }
