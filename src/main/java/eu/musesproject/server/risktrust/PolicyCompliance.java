@@ -43,6 +43,7 @@ public class PolicyCompliance {
 	private boolean compliance;
 	private int requestId;
     private String reason;
+    private String information;
     private String condition;
     
 	public int getId() {
@@ -80,5 +81,11 @@ public class PolicyCompliance {
 	}
 	public void setCondition(String condition) {
 		this.condition = condition;
+	}
+	public String getInformation() {
+		return information;
+	}
+	public void setInformation(String information) {
+		this.information = information;
 	}
 }
