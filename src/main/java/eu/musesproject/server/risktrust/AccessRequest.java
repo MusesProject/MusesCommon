@@ -44,6 +44,7 @@ public class AccessRequest {
 	private Asset requestedCorporateAsset;
 	private String action;
 	private long eventId;
+	private OpportunityDescriptor opportunityDescriptor;
 	
 	
 	/**
@@ -118,6 +119,19 @@ public class AccessRequest {
 	public void setUserId(BigInteger userId) {
 		this.userId = userId;
 	}
+	/**
+	 * @return the opportunityDescriptor
+	 */
+	public OpportunityDescriptor getOpportunityDescriptor() {
+		return opportunityDescriptor;
+	}
+	/**
+	 * @param opportunityDescriptor the opportunityDescriptor to set
+	 */
+	public void setOpportunityDescriptor(OpportunityDescriptor opportunityDescriptor) {
+		this.opportunityDescriptor = opportunityDescriptor;
+	}
+	
 		
 	
 
