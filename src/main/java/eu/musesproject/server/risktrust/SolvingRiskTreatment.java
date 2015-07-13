@@ -31,6 +31,8 @@ public class SolvingRiskTreatment {
     public static final int OPEN_ASSET_IN_RESTRICTED_ZONE_1 = 22;//"Open asset in restricted zone 1" 
     public static final int USER_ENTERED_PASSWORD = 23;//"User entered password" 
     public static final int EMAS_ADD_NOTE = 24;//"Emas Add Note" 
+    public static final int OPPORTUNITY = 25;//"Emas Add Note" 
+
     
 
     
