@@ -77,6 +77,7 @@ public class JSONIdentifiers {
 	public static final String LONGITUD					= "longitud";
 	public static final String LATITUDE					= "latitude";
 	public static final String RADIUS					= "radius";
-	public static final String DESCRIPTION				= "description";
-	
+	public static final String OPPORTUNITY_TIME			= "opportunity_time";
+	public static final String OPPORTUNITY_LOSS_EUROS	= "opportunity_revenue_loss_euros";
+	public static final String OPPORTUNITY_LOSS_DESCRIPTION= "opportunity_revenue_loss_description";
 }
