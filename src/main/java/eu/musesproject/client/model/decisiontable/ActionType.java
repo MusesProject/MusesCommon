@@ -32,6 +32,7 @@ public class ActionType {
 	public static final String OK = "ok";
 	public static final String PROCEED_ANYWAY = "proceed_anyway";
 	public static final String HELP_ME = "help_me";
+	public static final String OPPORTUNITY = "show_opportunity";
 	public static final String DETAILS = "details";
 	public static final String AUTOMATIC_FIX = "automatic_fix";
 	public static final String MANUAL_FIX = "manual_fix";
