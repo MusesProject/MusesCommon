@@ -34,5 +34,6 @@ public class RequestType {
     public static final String LOGOUT_RESPONSE	        = "logout-response";
     public static final String USER_ACTION				= "user_behavior";
     public static final String CONFIG_SYNC				= "config_sync";
-    public static final String CONFIG_UPDATE			= "config_update";
+    public static final String CONFIG_UPDATE            = "config_update";
+    public static final String OPPORTUNITY              = "opportunity-request";
 }
